@@ -1,6 +1,4 @@
-operation
+private
 addBatch: aBatch
-
-	(capacity > (self usedCapacity + aBatch weight))
-	ifTrue: [batches add: aBatch]
-	ifFalse: [Transcript show: 'No hay suficiente lugar para el batch'.]
+	batches add: aBatch.
+	^ true
