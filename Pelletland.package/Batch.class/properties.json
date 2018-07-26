@@ -6,13 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"initialQuality",
 		"weight",
 		"incorporationDate",
+		"cost",
 		"provider",
 		"incidents",
-		"cost",
-		"qualityDeteriorations"
+		"batchQuality"
 	],
 	"name" : "Batch",
 	"type" : "normal"
