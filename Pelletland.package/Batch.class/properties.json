@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Pelletland",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"initialQuality",
+		"weight",
+		"incorporationDate",
+		"price",
+		"containerId",
+		"provider",
+		"qualityDeteriorationList",
+		"incidents"
+	],
+	"name" : "Batch",
+	"type" : "normal"
+}

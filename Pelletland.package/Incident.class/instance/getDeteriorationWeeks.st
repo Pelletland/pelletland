@@ -1,0 +1,4 @@
+operation
+getDeteriorationWeeks
+
+	^ self subclassResponsibility.

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Pelletland",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"date",
+		"resultantQuality"
+	],
+	"name" : "QualityDeterioration",
+	"type" : "normal"
+}

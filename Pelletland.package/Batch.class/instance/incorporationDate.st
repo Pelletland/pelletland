@@ -1,0 +1,4 @@
+accessing
+incorporationDate
+
+	^ incorporationDate.
