@@ -1,4 +1,3 @@
 accessing
-humidity: anInteger
-
-	humidity := anInteger.
+humidity: aDouble
+	humidity := aDouble

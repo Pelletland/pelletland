@@ -1,0 +1,3 @@
+accessing
+batchQuality
+	^ batchQuality 

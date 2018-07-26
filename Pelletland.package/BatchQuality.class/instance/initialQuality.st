@@ -1,4 +1,3 @@
 accessing
 initialQuality
-
-	^ initialQuality.
+^initialQuality

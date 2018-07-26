@@ -1,4 +1,3 @@
 accessing
 qualityDeteriorations
-
-	^ qualityDeteriorations.
+ ^ qualityDeteriorations 
