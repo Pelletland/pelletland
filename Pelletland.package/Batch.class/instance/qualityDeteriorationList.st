@@ -1,4 +1,0 @@
-accessing
-qualityDeteriorationList
-
-	^ qualityDeteriorationList.

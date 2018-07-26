@@ -9,11 +9,10 @@
 		"initialQuality",
 		"weight",
 		"incorporationDate",
-		"price",
-		"containerId",
 		"provider",
-		"qualityDeteriorationList",
-		"incidents"
+		"incidents",
+		"cost",
+		"qualityDeteriorations"
 	],
 	"name" : "Batch",
 	"type" : "normal"

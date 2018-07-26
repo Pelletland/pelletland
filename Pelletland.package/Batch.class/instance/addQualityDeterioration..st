@@ -1,4 +1,3 @@
 operation
 addQualityDeterioration: aQualityDeterioration
-
-	qualityDeterioration add: aQualityDeterioration.
+	qualityDeteriorations add: aQualityDeterioration

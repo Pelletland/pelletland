@@ -1,4 +1,3 @@
 accessing
-weight: anInteger
-
-	weight := anInteger.
+weight: aDouble
+	weight := aDouble
