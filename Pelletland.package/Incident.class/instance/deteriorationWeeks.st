@@ -1,4 +1,4 @@
 operation
-getDeteriorationWeeks
+deteriorationWeeks
 
 	^ self subclassResponsibility.

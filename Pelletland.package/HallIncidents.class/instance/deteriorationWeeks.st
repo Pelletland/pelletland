@@ -1,0 +1,3 @@
+operation
+deteriorationWeeks
+	^ self notYetImplemented
