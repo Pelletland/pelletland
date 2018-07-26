@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Pelletland",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"highPercentage",
+		"mediumPercentage",
+		"lowPercentage",
+		"discard"
+	],
+	"name" : "Product",
+	"type" : "normal"
+}
