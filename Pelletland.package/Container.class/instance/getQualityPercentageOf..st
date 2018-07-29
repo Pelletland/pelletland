@@ -1,4 +1,3 @@
 querying
 getQualityPercentageOf: aQualityType
-
-	^ (self getWeightOf: aQualityType / self availableCapacity) * 100.
+	^ (self getWeightOf: aQualityType / self usedCapacity) * 100
