@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "QualityType",
+	"category" : "Pelletland",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LowQuality",
+	"type" : "normal"
+}

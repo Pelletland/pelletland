@@ -1,0 +1,4 @@
+operation
+nextDeteriorationQuality
+
+	^ DiscardQuality new.

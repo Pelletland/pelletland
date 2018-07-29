@@ -6,15 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"weight",
-		"incorporationDate",
-		"cost",
-		"provider",
-		"incidents",
-		"initialQuality",
-		"qualityDeteriorations",
-		"record"
+		"date",
+		"description"
 	],
-	"name" : "Batch",
+	"name" : "BatchRecord",
 	"type" : "normal"
 }
