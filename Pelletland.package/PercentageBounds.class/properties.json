@@ -6,9 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"qualities"
+		"quality",
+		"lowerBound",
+		"upperBound"
 	],
-	"name" : "Product",
+	"name" : "PercentageBounds",
 	"type" : "normal"
 }
