@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 new: aName
- ^ self new initialize: aName
+	^ self new initialize: aName

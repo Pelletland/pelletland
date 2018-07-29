@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"steps"
+		"name"
 	],
 	"name" : "QualityType",
 	"type" : "normal"
