@@ -1,0 +1,4 @@
+operation
+nextDeteriorationQuality
+
+	^ LowQuality new.

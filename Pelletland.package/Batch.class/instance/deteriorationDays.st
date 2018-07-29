@@ -1,0 +1,4 @@
+accessing
+deteriorationDays
+
+	    ^ deteriorationDays.

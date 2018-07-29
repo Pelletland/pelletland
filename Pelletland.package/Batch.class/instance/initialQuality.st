@@ -1,0 +1,4 @@
+accessing
+initialQuality
+
+	^ initialQuality.

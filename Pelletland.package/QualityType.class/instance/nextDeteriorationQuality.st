@@ -1,0 +1,4 @@
+operation
+nextDeteriorationQuality
+
+	 ^ self subclassResponsibility.

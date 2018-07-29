@@ -10,8 +10,10 @@
 		"incorporationDate",
 		"cost",
 		"provider",
+		"deteriorationDays",
 		"incidents",
-		"batchQuality"
+		"initialQuality",
+		"qualityDeteriorations"
 	],
 	"name" : "Batch",
 	"type" : "normal"

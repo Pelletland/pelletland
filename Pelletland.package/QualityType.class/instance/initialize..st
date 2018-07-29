@@ -1,3 +1,3 @@
 initialization
 initialize: aName
-	name := aName
+	name := aName.

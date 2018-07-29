@@ -1,14 +1,11 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "Object",
+	"super" : "QualityType",
 	"category" : "Pelletland",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"name",
-		"steps"
-	],
-	"name" : "QualityType",
+	"instvars" : [ ],
+	"name" : "MediumQuality",
 	"type" : "normal"
 }
