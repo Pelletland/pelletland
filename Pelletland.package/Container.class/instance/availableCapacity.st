@@ -1,3 +1,3 @@
-querying
+accesing
 availableCapacity
-	^ capacity - (batches inject: 0 into: [ :sum :each | sum + each weight ]).
+	^ capacity - self usedCapacity
