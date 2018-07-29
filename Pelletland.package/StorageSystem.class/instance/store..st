@@ -1,7 +1,7 @@
 operations
 store: aBatch
   "este no me gusta, porque hay que indicar el container
-
+ 
    dos posibilidades: 
 		* que el metodo sea #add:aBatch in:aContainer
 		* que directamente hagan el #add:aBatch en el container
