@@ -1,5 +1,5 @@
 storing
 store: aBatch
 	(self hasCapacityFor: aBatch)
-		ifTrue: [ ^self addBatch: aBatch ].
-	^ false
+		ifTrue: [ ^ self addBatch: aBatch ]
+		ifFalse: [^ false ].
