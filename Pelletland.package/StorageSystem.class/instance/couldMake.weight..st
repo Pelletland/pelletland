@@ -1,12 +1,5 @@
 as yet unclassified
-couldMake: aProduct weight: weight
+couldMake: aProduct weight: aWeight
 
-	containers inject: 0 into: [ :sum :container |
-		(self checkBounds: aProduct container: container)
-			ifTrue: [
-				sum += container usedCapacity.
-				(sum >= weight)
-				ifTrue: [ ^ true ].
-			].
-		 ].
-	^ false.
+	^ (containers select: [ :container | self checkBounds: aProduct container: container ])
+	inject: 0 into: [ :sum :container | sum + container usedCapacity ] >= aWeight.
