@@ -1,3 +1,3 @@
 operation
 qualityAt: aDate
-	self notYetImplemented.
+	^ initialQuality 
