@@ -1,4 +1,3 @@
 containers
 addContainer: aContainer
-
-	containers add: aContainer.
+	containers add: aContainer

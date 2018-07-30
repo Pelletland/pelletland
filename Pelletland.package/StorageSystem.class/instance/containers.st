@@ -1,4 +1,3 @@
 accessing
 containers
-	
-	^ containers.
+	^ containers
