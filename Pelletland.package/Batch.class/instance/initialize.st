@@ -3,7 +3,7 @@ initialize
 	super initialize.
 	incidents := OrderedCollection new.
 	qualityDeteriorations := OrderedCollection new.
-	record := OrderedCollection new.
+	records := OrderedCollection new.
 	incorporationDate := Date today.
 	cost := 0.
 	weight := 0

@@ -14,7 +14,7 @@
 		"initialQuality",
 		"qualityDeteriorations",
 		"container",
-		"record"
+		"records"
 	],
 	"name" : "Batch",
 	"type" : "normal"

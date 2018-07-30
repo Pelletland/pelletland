@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
+	"commentStamp" : "",
+	"super" : "BatchRecord",
 	"category" : "Pelletland",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"date"
+		"amount"
 	],
-	"name" : "BatchRecord",
+	"name" : "StockRecord",
 	"type" : "normal"
 }
