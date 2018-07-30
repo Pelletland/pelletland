@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"sut"
+		"sut",
+		"premiumProduct"
 	],
 	"name" : "StorageSystemTests",
 	"type" : "normal"
