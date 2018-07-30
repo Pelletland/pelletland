@@ -1,3 +1,3 @@
 querying
 batchesWithQuality: aQualityType
-	^ batches select: [ :each | (each currentQuality) = aQualityType ]
+	^ batches select: [ :each | each currentQuality = aQualityType ]
