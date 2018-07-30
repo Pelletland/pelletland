@@ -1,4 +1,3 @@
 accessing
 provider
-
-	^ provider.
+	^ provider

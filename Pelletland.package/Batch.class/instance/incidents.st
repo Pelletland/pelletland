@@ -1,4 +1,3 @@
 accessing
 incidents
-
-	^ incidents.
+	^ incidents
