@@ -1,4 +1,0 @@
-operation
-nextDeteriorationQuality
-
-	^ MediumQuality new.
