@@ -1,7 +1,7 @@
 removing
 removeFromContainer: aWeight	
-	self getQualityTypes do: [ :quality |
-		(self batchesWithQuality: quality) inject: (aWeight * self getQualityPercentageOf: quality) into: [ :amount :batch |
+	self qualityTypes do: [ :quality |
+		(self batchesWithQuality: quality) inject: (aWeight * self percentageOf: quality) into: [ :amount :batch |
 			(batch weight < amount)
 			ifTrue: [
 				amount - (batch weight).
