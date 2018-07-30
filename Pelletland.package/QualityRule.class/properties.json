@@ -6,10 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"quality",
-		"lowerBound",
-		"upperBound"
+		"minValue",
+		"maxValue",
+		"qualityType"
 	],
-	"name" : "PercentageBounds",
+	"name" : "QualityRule",
 	"type" : "normal"
 }
