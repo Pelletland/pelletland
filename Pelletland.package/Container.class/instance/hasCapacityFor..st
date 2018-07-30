@@ -1,3 +1,3 @@
 querying
-hasCapacityFor: aBatch
-	^ self availableCapacity >= aBatch weight
+hasCapacityFor: aWeight
+	^ self availableCapacity >= aWeight

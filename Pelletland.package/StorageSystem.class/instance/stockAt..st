@@ -1,3 +1,3 @@
-operations
+querying
 stockAt: aDate
 	^ self notYetImplemented

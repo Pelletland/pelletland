@@ -5,7 +5,7 @@ testHasCapacityForAfterStoringBatch
 	quality := QualityType low.
 	big_batch := Batch new: quality cost: 10 weigth: 900.
 	small_batch := Batch new: quality cost: 50 weigth: 200.
-	self assert: (container hasCapacityFor: small_batch) description: 'It should have capacity for the small batch'.
-	self assert: (container hasCapacityFor: big_batch) description: 'It should have capacity for the big batch'.
+	self assert: (container hasCapacityFor: small_batch weight) description: 'It should have capacity for the small batch'.
+	self assert: (container hasCapacityFor: big_batch weight) description: 'It should have capacity for the big batch'.
 	container store: small_batch.
-	self deny: (container hasCapacityFor: big_batch) description: 'It shouldnt have capacity for the big batch after storing the small batch'
+	self deny: (container hasCapacityFor: big_batch weight) description: 'It shouldnt have capacity for the big batch after storing the small batch'
