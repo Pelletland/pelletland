@@ -1,4 +1,4 @@
-operations
+products
 makeProduct: aProduct weight: aDouble
  	(self couldMakeProduct: aProduct weight: aDouble)
 	ifTrue: [ 
