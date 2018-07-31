@@ -6,7 +6,7 @@ testGeneratesEmptiedRecord
 	self assert: batch records isEmpty.
 	container store: batch.
 	container removeFromContainer: 100.
-	self assert: batch records size equals: 1.
-	record := batch records second.
+	self assert: batch records size equals: 3.
+	record := batch records third.
 	self assert: record date equals: Date today.
-	self assert: record description equals: 'Emptied'
+	self assert: record description equals: 'Emptied'.

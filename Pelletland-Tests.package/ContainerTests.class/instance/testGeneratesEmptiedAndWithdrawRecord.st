@@ -7,12 +7,16 @@ testGeneratesEmptiedAndWithdrawRecord
 	container store: batch.
 	container removeFromContainer: 10.
 	container removeFromContainer: 90.
-	self assert: batch records size equals: 3.
+	self assert: batch records size equals: 4.
 	
 	withdraw_record := batch records second.
 	self assert: withdraw_record date equals: Date today.
 	self assert: withdraw_record description equals: 'Withdrawn 10kg'.
 	
-	emptied_record := batch records third.
+	withdraw_record := batch records third.
+	self assert: withdraw_record date equals: Date today.
+	self assert: withdraw_record description equals: 'Withdrawn 90kg'.
+	
+	emptied_record := batch records fourth.
 	self assert: emptied_record date equals: Date today.
 	self assert: emptied_record description equals: 'Emptied'
