@@ -1,5 +1,5 @@
 intialization
-initialize: aDate and: aQuality
+initialize: aWeeks and: aQuality
 
-	date := aDate.
+	weeks := aWeeks.
 	resultantQuality := aQuality.

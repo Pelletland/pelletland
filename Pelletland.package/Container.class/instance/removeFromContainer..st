@@ -1,8 +1,8 @@
 removing
-removeFromContainer: aWeight	
+removeFromContainer: aWeight
 	| initialValue |
 	self qualityTypes do: [ :quality |
-		initialValue := (aWeight * (self percentageOf: quality)).
+		initialValue := ((aWeight * (self percentageOf: quality)) / 100).
 		(self batchesWithQuality: quality) inject: initialValue into: [ :amount :batch |
 			(batch weight < amount)
 			ifTrue: [
@@ -12,7 +12,7 @@ removeFromContainer: aWeight
 				]
 			ifFalse: [
 				batch removeFromBatch: amount.
-				batch addRecord: 'Removed ' , (amount) , 'kg from batch' date: Date today.
+				batch addRecord: 'Removed ' , (amount asString) , 'kg from batch' date: Date today.
 				^ true.
 				].
 			].

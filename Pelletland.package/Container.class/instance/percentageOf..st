@@ -1,3 +1,3 @@
 private
 percentageOf: aQualityType
-	^ (self amountOf: aQualityType) / self usedCapacity * 100
+	^ (((self amountOf: aQualityType) / (self usedCapacity)) * 100)

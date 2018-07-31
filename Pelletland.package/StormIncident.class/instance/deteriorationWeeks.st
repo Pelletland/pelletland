@@ -1,3 +1,3 @@
 operation
 deteriorationWeeks
-^self notYetImplemented
+^ 5

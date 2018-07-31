@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"date",
+		"weeks",
 		"resultantQuality"
 	],
 	"name" : "QualityDeterioration",
