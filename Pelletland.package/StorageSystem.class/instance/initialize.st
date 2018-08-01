@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	containers := OrderedCollection new
+	containers := Set new
