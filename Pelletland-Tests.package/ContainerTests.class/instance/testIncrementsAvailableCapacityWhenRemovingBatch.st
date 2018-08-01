@@ -6,5 +6,5 @@ testIncrementsAvailableCapacityWhenRemovingBatch
 	self assert: container usedCapacity equals: 0.
 	container store: batch.
 	self assert: container usedCapacity equals: 100.
-	container removeFromContainer: 50.
+	container withdraw: 50.
 	self assert: container usedCapacity equals: 50.

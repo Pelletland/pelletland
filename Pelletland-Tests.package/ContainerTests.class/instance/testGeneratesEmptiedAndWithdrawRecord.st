@@ -5,8 +5,8 @@ testGeneratesEmptiedAndWithdrawRecord
 	batch := Batch new: QualityType low cost: 10 weigth: 100.
 	self assert: batch records isEmpty.
 	container store: batch.
-	container removeFromContainer: 10.
-	container removeFromContainer: 90.
+	container withdraw: 10.
+	container withdraw: 90.
 	self assert: batch records size equals: 4.
 	
 	withdraw_record := batch records second.

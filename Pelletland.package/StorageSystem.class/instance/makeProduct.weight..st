@@ -6,7 +6,7 @@ makeProduct: aProduct weight: aDouble
 				into: [ :amount :container | 
 					container usedCapacity < amount
 						ifTrue: [ amount - container usedCapacity.
-							container removeFromContainer: container usedCapacity ]
-						ifFalse: [ container removeFromContainer: amount.
+							container withdraw: container usedCapacity ]
+						ifFalse: [ container withdraw: amount.
 							^ true ] ] ].
 	^ false
