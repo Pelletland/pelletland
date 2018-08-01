@@ -9,11 +9,11 @@ removeFromContainer: aWeight
 				batch addWithdrawRecord: Date today amount: (batch weight).
 				batch addEmptiedRecord: Date today amount: (batch weight).
 				amount - (batch weight).
-				batch removeFromBatch: batch weight.
+				batch withdraw: batch weight.
 				]
 			ifFalse: [
 				batch addWithdrawRecord: Date today amount: amount.
-				batch removeFromBatch: amount.
+				batch withdraw: amount.
 				^ true.
 				].
 			].
