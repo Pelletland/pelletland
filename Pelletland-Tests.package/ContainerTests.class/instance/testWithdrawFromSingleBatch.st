@@ -1,5 +1,5 @@
 tests
-testIncrementsAvailableCapacityWhenRemovingBatch
+testWithdrawFromSingleBatch
 	| container |
 	container := Container new: 1000.
 	self assert: container amountStored equals: 0.
