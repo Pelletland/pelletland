@@ -7,4 +7,8 @@ testCurrentStock
 	sut addBatch: 10 weigth: 40 quality: QualityType low.
 	sut addBatch: 10 weigth: 50 quality: QualityType discard.
 	self assert: sut currentStock size equals: 4.
-	self assert: (sut currentStock sum) equals: 890
+	self assert: (sut currentStock at: QualityType high) equals: 500.
+	self assert: (sut currentStock at: QualityType medium) equals: 100.
+	self assert: (sut currentStock at: QualityType low) equals: 240.
+	self assert: (sut currentStock at: QualityType discard) equals: 50.
+	self assert: sut currentStock sum equals: 890
