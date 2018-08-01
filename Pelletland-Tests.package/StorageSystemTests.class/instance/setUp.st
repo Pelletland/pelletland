@@ -1,6 +1,7 @@
 running
 setUp
 	| premiumQualities |
+	super setUp.
 	sut := StorageSystem new.
 	premiumQualities := OrderedCollection new.
 	premiumQualities add: (QualityRule new: QualityType high min: 90 max: 100).
