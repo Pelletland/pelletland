@@ -1,12 +1,12 @@
 products
-makeProduct: aProduct weight: aDouble
-	(self canProduce: aDouble of: aProduct)
+makeProduct: aProduct weight: anAmount
+	(self canProduce: anAmount of: aProduct)
 		ifTrue: [ (self containersWithQualityFor: aProduct)
-				inject: aDouble
+				inject: anAmount
 				into: [ :amount :container | 
-					container usedCapacity < amount
-						ifTrue: [ amount - container usedCapacity.
-							container withdraw: container usedCapacity ]
+					container amountStored < amount
+						ifTrue: [ amount - container amountStored.
+							container withdraw: container amountStored ]
 						ifFalse: [ container withdraw: amount.
 							^ true ] ] ].
 	^ false

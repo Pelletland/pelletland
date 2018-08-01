@@ -1,3 +1,3 @@
 accesing
 availableCapacity
-	^ capacity - self usedCapacity
+	^ capacity - self amountStored
