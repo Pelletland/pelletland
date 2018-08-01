@@ -1,3 +1,3 @@
-operation
+accessing
 weight
 	^ weight

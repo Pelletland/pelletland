@@ -1,3 +1,3 @@
-record
+recording
 addEmptiedRecord: aDate amount: anAmount
-  ^ self addRecord: (EmptiedRecord new: aDate)
+	^ self addRecord: (EmptiedRecord new: aDate)

@@ -1,3 +1,3 @@
 instance creation
 new: aNumberOfWeeks resultantQuality: aQualityType
-	^ self new initialize: aNumberOfWeeks and: aQualityType
+	^ self new initialize: aNumberOfWeeks resultantQuality: aQualityType
