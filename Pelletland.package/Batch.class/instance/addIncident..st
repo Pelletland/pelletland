@@ -1,3 +1,3 @@
 operation
 addIncident: anIncident
-	incidents add: anIncident.
+	incidents add: anIncident

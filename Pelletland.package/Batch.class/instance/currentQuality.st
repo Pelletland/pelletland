@@ -1,3 +1,3 @@
 querying
 currentQuality
-  ^ self qualityAt: Date today.
+	^ self qualityAt: Date today
