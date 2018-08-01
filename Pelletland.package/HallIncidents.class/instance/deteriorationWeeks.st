@@ -1,3 +1,0 @@
-operation
-deteriorationWeeks
-	^ 3
