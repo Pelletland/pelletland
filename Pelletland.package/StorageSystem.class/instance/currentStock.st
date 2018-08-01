@@ -1,3 +1,3 @@
 stock
 currentStock
-	^ self stockAt: Date today
+	^ self stockByQualityAt: Date today
