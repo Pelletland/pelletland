@@ -12,5 +12,3 @@ testGetAvailableQualities
 	self assert: (sut containers size) equals: 1.
 	availableQualities := sut availableQualities.
 	self assert: (availableQualities size) equals: 4.
-	self assert: (availableQualities includes: 'Alta').
-	self assert: (availableQualities includes: 'Media')
