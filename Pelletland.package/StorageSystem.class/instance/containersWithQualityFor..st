@@ -1,3 +1,3 @@
 private
 containersWithQualityFor: aProduct
-	^ containers select: [ :container | container hasQualityFor: aProduct ]
+	^ self containersWithQualityFor: aProduct at: Date today.

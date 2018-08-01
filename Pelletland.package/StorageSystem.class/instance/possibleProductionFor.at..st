@@ -1,3 +1,3 @@
 querying
 possibleProductionFor: aProduct at: aDate
-	^ self notYetImplemented
+	^ self totalAmountWithQualityFor: aProduct at: aDate

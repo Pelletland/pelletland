@@ -1,0 +1,3 @@
+accessing
+qualityType
+	^ qualityType 

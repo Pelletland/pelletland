@@ -1,3 +1,3 @@
 querying
 canProduce: anAmount of: aProduct
-	^ (self totalAmountWithQualityFor: aProduct) >= anAmount
+	^ self canProduce: anAmount of: aProduct at: Date today.
