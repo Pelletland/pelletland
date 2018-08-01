@@ -1,3 +1,3 @@
 accesing
 capacity
-	^ capacity.
+	^ capacity

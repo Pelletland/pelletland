@@ -1,3 +1,3 @@
 initialization
 initialize: aCapacity
-  capacity := aCapacity 
+	capacity := aCapacity

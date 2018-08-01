@@ -1,3 +1,3 @@
 comparing
 hash
-  ^ name hash.
+	^ name hash

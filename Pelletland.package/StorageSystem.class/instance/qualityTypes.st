@@ -1,3 +1,3 @@
 private
 qualityTypes
-	^ ((containers collect: [ :container | container qualityTypes ]) flattened) asSet 
+	^ (containers collect: [ :container | container qualityTypes ]) flattened asSet

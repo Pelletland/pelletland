@@ -1,4 +1,3 @@
 accessing
 address
-
-	^ address.
+	^ address

@@ -1,3 +1,3 @@
 querying
 batchesWithQuality: aQualityType
-	^ self batchesWithQuality: aQualityType at: Date today.
+	^ self batchesWithQuality: aQualityType at: Date today

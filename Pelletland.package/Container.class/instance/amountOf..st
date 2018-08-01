@@ -1,3 +1,3 @@
 querying
 amountOf: aQualityType
-	^ self amountOf: aQualityType at: Date today.
+	^ self amountOf: aQualityType at: Date today

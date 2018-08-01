@@ -1,3 +1,3 @@
 accessing
 qualityType
-	^ qualityType 
+	^ qualityType

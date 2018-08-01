@@ -1,3 +1,3 @@
 comparing
 = aQualityType
-  ^ name = aQualityType name. 
+	^ name = aQualityType name

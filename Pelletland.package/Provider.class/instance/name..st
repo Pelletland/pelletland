@@ -1,4 +1,3 @@
 accessing
 name: aString
-
-	name := aString.
+	name := aString

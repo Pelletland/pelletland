@@ -1,4 +1,3 @@
 operation
 deteriorationWeeks
-
-	^ self subclassResponsibility.
+	^ self subclassResponsibility

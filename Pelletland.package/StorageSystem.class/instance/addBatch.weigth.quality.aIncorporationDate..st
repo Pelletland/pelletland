@@ -4,5 +4,6 @@ addBatch: aCost weigth: aWeigth quality: aQualityType aIncorporationDate: aDate
 		ifFound: [ :container | |batch| 
 			batch := Batch new: aQualityType cost: aCost weigth: aWeigth	incorporationDate: aDate.
 			container store: batch.
-			^ batch ]
+			^ batch 
+		]
 		ifNone: [ self noCapacityForBatchError ]

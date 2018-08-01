@@ -1,3 +1,3 @@
 private
 percentageOf: aQualityType
-	^ self percentageOf: aQualityType at: Date today.
+	^ self percentageOf: aQualityType at: Date today

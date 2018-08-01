@@ -1,3 +1,3 @@
 private
 containersWithQualityFor: aProduct
-	^ self containersWithQualityFor: aProduct at: Date today.
+	^ self containersWithQualityFor: aProduct at: Date today

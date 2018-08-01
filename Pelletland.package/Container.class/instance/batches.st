@@ -1,3 +1,3 @@
 accesing
 batches
-	^ batches.
+	^ batches
