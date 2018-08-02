@@ -1,9 +1,7 @@
 querying
 qualityAt: aDate
-	| weeksTemp |
-	weeksTemp := (aDate subtractDate: self incorporationDate) / 7.
 	qualityDeteriorations
 		do: [ :each | 
-			each weeks - self incidentsTotalWeeks <= weeksTemp
+			each weeks - self incidentsTotalWeeks <= (self weeksFromIncorporationTo: aDate)
 				ifTrue: [ ^ each resultantQuality ] ].
 	^ initialQuality
