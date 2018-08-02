@@ -1,3 +1,6 @@
 containers
 addContainer: aCapacity
-	^ containers add: (Container new: aCapacity)
+	| container |
+	container := Container new: aCapacity.
+	containers add: container.
+	^ container
