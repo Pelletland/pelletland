@@ -1,3 +1,3 @@
 containers
-addContainer: aContainer
-	containers add: aContainer
+addContainer: aCapacity
+	^ containers add: (Container new: aCapacity)

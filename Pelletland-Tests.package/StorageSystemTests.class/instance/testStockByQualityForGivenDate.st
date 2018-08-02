@@ -1,7 +1,7 @@
 tests
 testStockByQualityForGivenDate
 	| batch nextWeek stock |
-	sut addContainer: (Container new: 1000).
+	sut addContainer: 1000.
 	batch := sut addBatch: 10 weigth: 500 quality: QualityType high.
 	batch addQualityDeterioration: (QualityDeterioration new: 1 resultantQuality: QualityType medium).	
 	sut addBatch: 10 weigth: 100 quality: QualityType medium.

@@ -1,6 +1,6 @@
 tests
 testCurrentStock
-	sut addContainer: (Container new: 1000).
+	sut addContainer: 1000.
 	sut addBatch: 10 weigth: 500 quality: QualityType high.
 	sut addBatch: 10 weigth: 100 quality: QualityType medium.
 	sut addBatch: 10 weigth: 200 quality: QualityType low.

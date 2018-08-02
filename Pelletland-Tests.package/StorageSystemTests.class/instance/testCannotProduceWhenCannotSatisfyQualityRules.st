@@ -1,6 +1,6 @@
 tests
 testCannotProduceWhenCannotSatisfyQualityRules
-	sut addContainer: (Container new: 1000).
+	sut addContainer: 1000.
 	sut addBatch: 10 weigth: 90 quality: QualityType high.
 	sut addBatch: 10 weigth: 7 quality: QualityType medium.
 	sut addBatch: 10 weigth: 2 quality: QualityType low.

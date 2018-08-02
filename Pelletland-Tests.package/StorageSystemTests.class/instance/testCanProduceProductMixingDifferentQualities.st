@@ -1,6 +1,6 @@
 tests
 testCanProduceProductMixingDifferentQualities
-	sut addContainer: (Container new: 1000).
+	sut addContainer: 1000.
 	sut addBatch: 10 weigth: 91 quality: QualityType high.
 	sut addBatch: 10 weigth: 8 quality: QualityType medium.
 	sut addBatch: 10 weigth: 1 quality: QualityType low.
