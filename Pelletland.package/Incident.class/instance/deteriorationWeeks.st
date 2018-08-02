@@ -1,3 +1,3 @@
-operation
+accessing
 deteriorationWeeks
-	^ self subclassResponsibility
+	^ deteriorationWeeks
