@@ -6,4 +6,4 @@ addBatch: aCost weigth: aWeigth quality: aQualityType aIncorporationDate: aDate
 			container store: batch.
 			^ batch 
 		]
-		ifNone: [ self noCapacityForBatchError ]
+		ifNone: [ NotEnoughCapacity signal: 'Not enough capacity to store the batch' ]
