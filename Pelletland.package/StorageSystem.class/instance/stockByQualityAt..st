@@ -1,4 +1,4 @@
-stock
+querying
 stockByQualityAt: aDate
 	^ Dictionary
 		newFromKeys: self qualityTypes asOrderedCollection
