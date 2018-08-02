@@ -1,4 +1,4 @@
-removing
+batch handling
 withdraw: anAmount
 	| qualitiesAndPercentages |
 	"la variable temporal qualitiesAndPercentages se usa porque necesitamos congelar los porcentajes calculados"

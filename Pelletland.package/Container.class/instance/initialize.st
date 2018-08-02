@@ -1,4 +1,5 @@
 initialization
 initialize
 	super initialize.
-	batches := OrderedCollection new
+	batches := OrderedCollection new.
+	records := OrderedCollection new
