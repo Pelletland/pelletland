@@ -1,5 +1,6 @@
 removing
 withdraw: anAmount
-	| dic |
-	dic := self qualitiesAndPercentages.
-	self qualityTypes do: [ :quality | self withdraw: (anAmount * (dic at: quality) / 100) of: quality].
+	| qualitiesAndPercentages |
+	"la variable temporal qualitiesAndPercentages se usa porque necesitamos congelar los porcentajes calculados"
+	qualitiesAndPercentages := self qualitiesAndPercentages.
+	self qualityTypes do: [ :quality | self withdraw: (anAmount * (qualitiesAndPercentages at: quality) / 100) of: quality].
