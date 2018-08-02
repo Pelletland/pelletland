@@ -6,7 +6,6 @@ withdraw: anAmount of: aQualityType
 			((batch weight) <= amount)
 			ifTrue: [
 				batch addWithdrawRecord: Date today amount: (batch weight).
-				batch addEmptiedRecord: Date today amount: (batch weight).
 				amount := amount - (batch weight).
 				batch withdraw: batch weight.
 				]

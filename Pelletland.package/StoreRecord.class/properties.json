@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "StockRecord",
+	"super" : "BatchRecord",
 	"category" : "Pelletland",
 	"classinstvars" : [ ],
 	"pools" : [ ],

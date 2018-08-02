@@ -1,4 +1,4 @@
 initialization
 initialize: aDate amount: anAmount
-	self initialize: aDate.
+	date := aDate.
 	amount := anAmount

@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"date"
+		"date",
+		"amount"
 	],
 	"name" : "BatchRecord",
 	"type" : "normal"
