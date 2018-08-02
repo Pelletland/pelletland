@@ -1,30 +1,3 @@
-Please comment me using the following template inspired by Class Responsibility Collaborator (CRC) design:
-
-For the Class part:  State a one line summary. For example, "I represent a paragraph of text".
-
-For the Responsibility part: Three sentences about my main responsibilities - what I do, what I know.
-
-For the Collaborators Part: State my main collaborators and one line about how I interact with them. 
-
-Public API and Key Messages
-
-- message one   
-- message two 
-- (for bonus points) how to create instances.
-
-   One simple example is simply gorgeous.
- 
-Internal Representation and Key Implementation Points.
-
-    Instance Variables
-	containerId:		<Object>
-	incidents:		<Object>
-	incorporationDate:		<Object>
-	initialQuality:		<Object>
-	price:		<Object>
-	provider:		<Object>
-	qualityDeterioration:		<Object>
-	weight:		<Object>
-
-
-    Implementation Points
+Es el lote de pellets, y se registra al momento del ingreso al sistema de acopio. Posee características como el peso, el costo, la calidad inicial, la fecha de incorporación y las fechas de deterioro, que se asignan al momento del ingreso del lote. Dichas fechas de deterioro se modelan con objetos QualityDeterioration.
+El Batch es responsable de conocer su calidad en una fecha dada, en base al deterioro percibido para esa fecha.
+En el batch también se pueden registrar incidentes, los cuales aceleran su deterioro. Los incidentes son modelados con objetos Incident.
