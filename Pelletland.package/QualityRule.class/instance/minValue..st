@@ -1,3 +1,3 @@
 accessing
 minValue: aValue
-	minValue := aValue .
+	minValue := aValue

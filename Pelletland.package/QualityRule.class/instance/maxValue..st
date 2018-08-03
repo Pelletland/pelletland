@@ -1,3 +1,3 @@
 accessing
 maxValue: aValue
-	maxValue := aValue .
+	maxValue := aValue
