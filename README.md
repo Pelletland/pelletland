@@ -1,3 +1,3 @@
 # Pelletland
 
-![Alt text](Pelletland.png?raw=true "Diagrama de clases")
+![Diagrama de Clases](Pelletland_class_diagram.jpg?raw=true)
